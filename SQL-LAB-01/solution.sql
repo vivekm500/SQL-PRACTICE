@@ -57,4 +57,38 @@ VALUES
 (16, 'Rahul',  'CSE', 19, '9090909090', 'Kolkata', 3),
 (38, 'Prem',   'CSE', 23, '9000011111', 'Lucknow', 7);
 
+-- 10. Display all records from Student.
+SELECT * FROM Student;
+
+-- 11. Display only RollNo and Name from Student.
+SELECT RollNo, Name FROM Student;
+
+-- 12. Display all students from department "CSE".
+SELECT * FROM Student
+WHERE Dept = 'CSE';
+
+-- 13. Display all students whose age is greater than 20.
+SELECT * FROM Student
+WHERE Age > 20;
+
+-- 14. Update the department of RollNo = 101 to "ECE".
+UPDATE Student
+SET Dept = 'ECE'
+WHERE RollNo = 101;
+
+-- 15. Update the city of student "Rahul" to "Patna".
+UPDATE Student
+SET City = 'Patna'
+WHERE Name = 'Rahul';
+
+-- 16. Increase age of all students by 1 year.
+UPDATE Student
+SET Age = Age + 1;
+
+-- 17. Delete record of student whose RollNo = 105.
+DELETE FROM Student
+WHERE RollNo = 105;
+
+-- 18. Delete all records from Student (table should remain).
+DELETE FROM Student;
 
