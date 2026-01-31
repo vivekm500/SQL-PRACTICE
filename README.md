@@ -8,15 +8,16 @@ The repository is maintained as a **practice + submission-ready archive** of SQL
 
 ## Repository Structure
 SQL-PRACTICE
-└───SQL-LAB-01
-└───......
-└───SQL-LAB-XX-*
-    │   *-Questions-DB-LAB-XX.pdf
-    │   *-lab_XX_solution.sql
-    │   *-schema-design-figure.png
-
-└───......
-
+SQL-CLG-ASSIGNMENTS/
+│
+├── SQL-LAB-01/
+│ ├── DB-Lab-1.pdf
+│ └── solution.sql
+│
+├── SQL-LAB-02/
+│ ├── lab_02_solution.sql
+│ ├── Questions-DB-Lab-2.pdf
+│ ├── schema-design-figure.png
 
 
 ## How to Use This Repository
