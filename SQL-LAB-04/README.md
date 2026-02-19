@@ -118,8 +118,8 @@ The following categories of queries were executed:
 ---
 
 ## 📊 Example Queries
-
-Display students with alias names
+```sql
+--Display students with alias names
 
 SELECT
     StudentID AS Roll_No,
@@ -127,30 +127,30 @@ SELECT
     DepartmentID AS Dept_ID
 FROM Student;
 
-Display students sorted by name
+--Display students sorted by name
 
 SELECT *
 FROM Student
 ORDER BY Name ASC;
 
-Calculate student age
+--Calculate student age
 
 SELECT
     Name,
     FLOOR(MONTHS_BETWEEN(SYSDATE, DateOfBirth)/12) AS Age
 FROM Student;
 
-Display first 5 course records
+--Display first 5 course records
 
 SELECT *
 FROM Course
 WHERE ROWNUM <= 5;
 
-📸 Output Screenshots--
-Screenshots of successful query execution are included in the folder:
-Data_Retrieval_Screenshots/
+--📸 Output Screenshots--
+--Screenshots of successful query execution are included in the folder:
+--Data_Retrieval_Screenshots/
 
-📁 Files Included
+--📁 Files Included
 Lab-04/
 │
 ├── README.md
@@ -158,7 +158,7 @@ Lab-04/
 ├── Data_Retrieval_Screenshots/
 └── Questions-DB-Lab-4.pdf
 
-### Display all students
+--Display all students
 
 ```sql
 SELECT * FROM Student;
