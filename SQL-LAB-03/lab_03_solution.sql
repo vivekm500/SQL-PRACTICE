@@ -76,6 +76,21 @@ SELECT * FROM dual;
 -- Data Source -> Friends
 
 
+INSERT INTO enrollment VALUES (21, 301, 4, 'A');
+INSERT INTO enrollment VALUES (32, 302, 4, 'B+');
+INSERT INTO enrollment VALUES (33, 303, 4, 'A');
+
+INSERT INTO enrollment VALUES (16, 304, 5, 'B');
+INSERT INTO enrollment VALUES (38, 305, 5, 'A');
+
+INSERT INTO enrollment VALUES (25, 306, 5, 'A+');
+INSERT INTO enrollment VALUES (17, 307, 5, 'B+');
+
+INSERT INTO enrollment VALUES (09, 308, 3, 'A');
+INSERT INTO enrollment VALUES (05, 309, 3, 'B');
+
+INSERT INTO enrollment VALUES (51, 310, 4, 'A');
+
 -- All Screensshots of successful data insertion are in folder Data_Insertion_Screenshots
 
 -- Question PDF is also attached for your reference with the file  name Questions-DB-Lab-3.pdf
