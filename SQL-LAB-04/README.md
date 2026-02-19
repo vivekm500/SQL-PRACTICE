@@ -115,6 +115,14 @@ The following categories of queries were executed:
 - Extract year from date of birth
 - Extract email domain from faculty email
 
+📁 Files Included
+Lab-04/
+│
+├── README.md
+├── Lab_04_solution.sql
+├── Data_Retrieval_Screenshots/
+└── Questions-DB-Lab-4.pdf
+
 ---
 
 ## 📊 Example Queries
@@ -150,15 +158,5 @@ WHERE ROWNUM <= 5;
 --Screenshots of successful query execution are included in the folder:
 --Data_Retrieval_Screenshots/
 
---📁 Files Included
-Lab-04/
-│
-├── README.md
-├── Lab_04_solution.sql
-├── Data_Retrieval_Screenshots/
-└── Questions-DB-Lab-4.pdf
-
 --Display all students
-
-```sql
 SELECT * FROM Student;
